@@ -1,0 +1,10 @@
+# Crie uma função chamada verificar_paridade que receba um número inteiro como argumento e retorne uma mensagem indicando se o número é par ou ímpar.
+valor = int(input("digite o valor"))
+def valor_paridade(valor):
+    if valor % 2 == 0:
+        print("o valor escolhido e par")
+    else:
+        print("o valor e impar")
+    return valor
+print( valor_paridade(valor))
+      
